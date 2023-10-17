@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    margin: 10px;
+}
+
+.square:nth-child(1) {
+    background-color: blue;
+}
+
+.square:nth-child(2) {
+    background-color: black;
+}
+
+.square:nth-child(3) {
+    background-color: red;
+}
+
+.square:nth-child(4) {
+    background-color: green;
+}
