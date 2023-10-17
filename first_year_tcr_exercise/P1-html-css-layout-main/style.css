@@ -37,3 +37,26 @@ nav a {
 nav img {
   width: 5vw;
 }
+
+body {
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  width: 100vw;
+  height: calc(100vh);
+}
+
+body.black-background {
+  background-color: black;
+}
+
+body {
+  font-family: 'Goldman', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
