@@ -1,60 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Goldman", cursive;
 }
-
 html {
   font-size: 62.5%;
 }
-
 body {
-  font-family: "Arial", sans-serif;
+  min-height: 100vh;
+  position: relative;
+  font-family: "Goldman", cursive;
+  
 }
 
 nav {
   display: flex;
-  width: 100%;
+  width: 100vw;
   padding: 2rem;
-  min-height: 10vh;
+  height: 20vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
-
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-
 nav li {
-  font-size: 3rem; 
+  font-size: 2.5rem;
   padding: 0 4rem 0 4rem;
 }
-
 nav a {
   color: white;
   text-decoration: none;
 }
-
 nav img {
   width: 5vw;
 }
+footer{
+  background-color: #00a8c7;
+  height: 10vh;
+  text-align: center;
+  color: white;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  margin: 0px auto;
 
-body {
-  background: url("hacker.jpg") no-repeat center center fixed;
+}
+.index{
+  background-image: url('img/background.jpeg'); 
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-
-footer {
-  background: #00a8c7;
+.javascript{
+  background-color: white;
+}
+.sql{
+  background-color: white(90, 90, 90);
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+  color: white;
+}
+.help{
   color: white;
   text-align: center;
-  padding: 1rem;
-  font-family: "Arial", sans-serif;
-  font-size: 1.2rem; 
-  font-weight: bold;
+}
+.me{
+  color: white;
+}
+form{
+  border: 0.1rem solid black;
+  padding: 2rem;
+  text-align: center;
+  font-weight: 550;
+  font-size: large;
+}
+label{
+  display: block;
+    margin-bottom: 0.;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 2rem;
+    margin-bottom: 10px;
+    border: 0.4rem solid #ccc;
+    border-radius: 0.5rem;
+
+}
+button{
+  font-size: large;
+}
+p{
+  color: white;
+}
+
+
+.font_color {
+  color: black;
+}
+h1{
+  text-align: center;
+}
+
+img[alt="foto HTML/CSS"] {
+width: 30rem;
+}
+img[alt="Javascript"]{
+  width: 30rem;
+}
+img[alt="foto HTML/CSS"]
+{
+
+}
+img[alt="php"]{
+
+width: 30rem;
+}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+}
+li{
+  float: left;
+}
+li a{
+  display: inline-block
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 9vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem;
+  z-index: 1;
+}
+.dropdown-content a{
+color: #00a8c7;
+padding: 0.8rem 1rem;
+display: block;
+text-align: left;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+ color: white;
+ 
+}
+.dropdownitem:hover {
+  background-color: grey;
+}
+.dropdown:hover .dropbtn {
+  display: ;
+  background-color: white;
+  color: #00a8c7;
 }

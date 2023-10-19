@@ -8,39 +8,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="contact">
     <nav>
-        <img src="./img/hacker.png" id="logo" />
+        <a href="index.html"><img src="./img/hacker.png" id="logo" /></a>
         <ul>
             <li><a href="html-css.html">HTML/CSS</a></li>
             <li><a href="javascript.html">Javascript</a></li>
             <li><a href="php.html">PHP</a></li>
             <li><a href="mysql.html">SQL</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="" class="dropbtn">Jaar 2</a>
+                <div class="dropdown-content">
+                    <a class="dropdownitem" href="">OOP</a>
+                    <a class="dropdownitem" href="">Laravel</a>
+                    <a class="dropdownitem" href="">Testen</a>
+                </div>
+            </li>
         </ul>
     </nav>
 
     <header>
-        <h1>Contact</h1>
+        <h1 class="font_color">Contact</h1>
     </header>
-    <form>
-        <div>
-            <label for="name">Naam</label>
-            <input type="text" id="name" name="name">
-        </div>
-        <div>
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div>
-            <label for="message">Bericht</label>
-            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <button type="submit" name="send">Versturen</button>
-        </div>
-        </div>
-    </form>
+    <main>
+        <form>
+            <div>
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="message">Bericht:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit" name="send">Versturen</button>
+            </div>
+            </div>
+        </form>
+    </main>
     <footer>Copyrights Techniek College Rotterdam</footer>
 </body>
 

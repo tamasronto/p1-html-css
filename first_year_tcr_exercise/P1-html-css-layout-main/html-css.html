@@ -8,28 +8,37 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="html">
     <nav>
-        <img src="./img/hacker.png" id="logo" />
+        <a href="index.html"><img src="./img/hacker.png" id="logo" /></a>
         <ul>
             <li><a href="html-css.html">HTML/CSS</a></li>
             <li><a href="javascript.html">Javascript</a></li>
             <li><a href="php.html">PHP</a></li>
             <li><a href="mysql.html">SQL</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li class="dropdown">
+                <a href="" class="dropbtn">Jaar 2</a>
+                <div class="dropdown-content">
+                    <a class="dropdownitem" href="">OOP</a>
+                    <a class="dropdownitem" href="">Laravel</a>
+                    <a class="dropdownitem" href="">Testen</a>
+                </div>
+            </li>
         </ul>
     </nav>
     <header>
-        <h1>HTML/CSS</h1>
+        <h1 class="font_color">HTML/CSS</h1>
     </header>
 
     <main>
         <section>
             <header>
-                <h2> Wat is HTML/CSS?</h2>
+                <h2 class="font_color"> Wat is HTML/CSS?</h2>
             </header>
             <article>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in velit placerat magna pulvinar
+                <p class="font_color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in velit placerat
+                    magna pulvinar
                     porta
                     sit amet vel purus. Suspendisse potenti.
                     Maecenas eu purus pharetra, efficitur lorem eget, facilisis risus. Proin pretium orci bibendum
@@ -40,7 +49,7 @@
                     varius. Etiam ut eros in libero condimentum aliquet non quis leo. Pellentesque sit amet fermentum
                     sem,
                     in dictum leo. </p>
-                <img src="img/html.png" alt="Foto HTML/CSS">
+                <img src="img/html.png" alt="foto HTML/CSS">
             </article>
         </section>
     </main>
