@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
-  font-family: "Goldman", cursive;
+  font-family: "Arial", sans-serif;
 }
 
 nav {
@@ -21,42 +23,38 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
 }
+
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
+
 nav li {
-  font-size: 2.5rem;
+  font-size: 3rem; 
   padding: 0 4rem 0 4rem;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
+
 nav img {
   width: 5vw;
 }
 
 body {
-  background-image: url("background.jpeg");
+  background: url("hacker.jpg") no-repeat center center fixed;
   background-size: cover;
-  background-repeat: no-repeat;
 }
 
-body {
-  width: 100vw;
-  height: calc(100vh);
-}
-
-body.black-background {
-  background-color: black;
-}
-
-body {
-  font-family: 'Goldman', sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
+footer {
+  background: #00a8c7;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2rem; 
   font-weight: bold;
 }
